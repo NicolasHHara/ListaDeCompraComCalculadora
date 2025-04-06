@@ -1,0 +1,81 @@
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+#container1{
+    height: 100vh;
+}
+#caixa{
+    height: 24rem;
+    width: 30%;
+    margin: 3rem;
+    padding: 0;
+    border-radius: 1rem;
+    display: block;
+    float: left;
+}
+#superior{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 1rem;
+}
+
+img{
+    height: 10rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+h1{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 2rem;
+    font-style: normal;
+    text-align: center;
+    margin-top: 6px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+  
+#btnComprar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+#btnImage{
+    margin-right: 15px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.aside{
+    background-color: aliceblue;
+    height: 10vh;
+    width: 100%;
+    
+}
+h2{
+    height: 100%;
+    width: 100%;
+    float: left;
+    font-size: 3rem;
+    display: flex;
+    padding-left: 120px;
+}
+#imgAside{
+    float: left;
+    margin-left: 0;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+
+}
