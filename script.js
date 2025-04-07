@@ -13,16 +13,17 @@ function addCesta(nome, preco){
 
 function atualizarCesta(){
     const cestaContainer = document.getElementById('cesta');
-    cestaContainer.innerHTML = ""; // Limpa a cesta antes de atualizar
+    cestaContainer.innerHTML = `
+            <h4>Minha Cesta De compra</h4>`
 
     // Se a cesta estiver vazia, mostrar uma mensagem
     if (cesta.length === 0) {
-        cestaContainer.innerHTML = "<p>Cesta vazia. Adicione produtos!</p>";
+        cestaContainer.innerHTML = alert ("Adicione Um intem")
     } else {
         // Adicionar os produtos da cesta
         cesta.forEach((item, index) => {
             cestaContainer.innerHTML += `
-                <div class="cesta-item">
+                <div class="cestaContainer">
                     <h5>${item.nome} - ${item.preco}</h5>
                 </div>
             `;
